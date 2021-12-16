@@ -1,7 +1,40 @@
-*{
-    background-color: white;
-}
+
+
 #contianer{
-    height: 100px;
-    width: 100px;
+    padding: 0px;
+    margin: 0px;
 }
+
+.blue-right-triangle{
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid blue; 
+    border-width: 50vh;
+}
+
+.red{
+    padding: 30px;
+    display: inline;
+    background-color: darkred;
+    height: 200vh;
+    width: 90%;
+    position: absolute;
+    left: 8px;
+    bottom: 555px;
+    z-index: -1;
+}
+.black{
+    padding: 30px;
+    display: inline;
+    background-color: black;
+    height: 200vh;
+    width: 90%;
+    position: absolute;
+    left: 8px;
+    top: 570px;
+    z-index: -1;
+}
+
